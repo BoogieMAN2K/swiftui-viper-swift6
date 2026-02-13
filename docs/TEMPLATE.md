@@ -59,3 +59,13 @@ The template must compile under Swift 6 without modification.
 
 If a feature cannot be expressed using this template,
 the architecture must be revisited.
+
+## Cyclic Dependency Resolution
+
+Presenter–Interactor cycles are resolved during module composition using
+an explicit attachment step.
+
+- Presenters may be initialized without an Interactor
+- Interactors may depend on a Presenter
+- The attachment must occur only inside `<Module>Module.swift`
+- No partially wired object may escape the Module

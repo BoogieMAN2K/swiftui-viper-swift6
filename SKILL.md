@@ -51,6 +51,7 @@ The skill may:
 * Generate simple async flows inside the Interactor
 * Add ViewState properties required by the View
 * Add Presenter formatting logic
+* Resolve Presenter–Interactor cycles using the established attachment pattern in the Module.
 
 ### Forbidden Capabilities
 
