@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <key>Kind</key>
+    <string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+
+    <key>Identifier</key>
+    <string>com.yourorg.swiftui-viper-feature</string>
+
+    <key>Name</key>
+    <string>SwiftUI VIPER Feature</string>
+
+    <key>Description</key>
+    <string>Creates a SwiftUI VIPER feature compliant with Swift 6 concurrency and Observation.</string>
+
+    <key>Platforms</key>
+    <array>
+        <string>com.apple.platform.iphoneos</string>
+        <string>com.apple.platform.macosx</string>
+    </array>
+
+    <key>SortOrder</key>
+    <integer>1</integer>
+
+    <key>Options</key>
+    <array>
+        <dict>
+            <key>Identifier</key>
+            <string>featureName</string>
+            <key>Name</key>
+            <string>Feature Name</string>
+            <key>Description</key>
+            <string>Name of the VIPER feature (e.g. Weather)</string>
+            <key>Type</key>
+            <string>text</string>
+            <key>Required</key>
+            <true/>
+        </dict>
+    </array>
+
+</dict>
+</plist>
