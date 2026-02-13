@@ -76,6 +76,6 @@ These are intentional exclusions.
 ## Status
 
 - Specification: Stable
-- Templates: In progress
-- Examples: Planned
-- Tooling: Planned
+- Templates: Stable
+- Examples: Stable
+- Tooling: In Progress
