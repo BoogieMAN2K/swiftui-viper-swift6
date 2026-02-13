@@ -1,29 +1,81 @@
 # SwiftUI VIPER (Swift 6)
 
-A SwiftUI-first, Swift 6–compliant interpretation of the VIPER architecture.
+A SwiftUI-first, Swift 6–compliant specification of the VIPER architecture.
 
-This repository defines:
-- A strict architectural contract (`SKILL.md`)
-- Canonical SwiftUI VIPER module structure
-- Xcode file templates
-- Migration guidance from MVC and MVVM
+This repository defines a **strict architectural contract** and the
+tooling foundations required to enforce it in large, long-lived SwiftUI
+applications.
 
 This is not a framework.
 This is not a demo app.
+This is not a flexible architecture guide.
 
-This is a specification and tooling foundation for building
-large, long-lived SwiftUI applications with strong separation
-of concerns and predictable change behavior.
+---
 
-## Status
+## What This Repository Is
 
-- Architecture spec: Stable
-- Xcode templates: In progress
-- Examples: Planned
+- A **normative specification** (`SKILL.md`)
+- A **canonical SwiftUI VIPER module structure**
+- A **source of truth** for architecture enforcement
+- A foundation for templates, tooling, and automation
+
+If there is a conflict between examples, templates, and documentation,
+**the specification wins**.
+
+---
+
+## What This Repository Is Not
+
+- A Swift Package or library
+- A UIKit-based VIPER implementation
+- An MVVM variant
+- A teaching resource for SwiftUI basics
+- A playground for architectural experimentation
+
+If you are looking for flexibility, this repository is not for you.
+
+---
+
+## Target Audience
+
+This repository is intended for:
+
+- Senior Swift / iOS engineers
+- Teams building multi-feature SwiftUI applications
+- Codebases that must survive years of change
+- Environments where architectural drift is costly
+
+It intentionally assumes familiarity with SwiftUI, concurrency, and testing.
+
+---
+
+## Architectural Authority
+
+The authoritative document is:
+
+- `SKILL.md`
+
+Anything that contradicts it is incorrect, even if it compiles.
+
+Templates, examples, and tools exist to **serve the specification**, not
+to redefine it.
+
+---
 
 ## Non-Goals
 
-- UIKit support
-- Combine-based state management
-- “Flexible” architecture variants
-- Teaching Swift or SwiftUI basics
+- Backwards compatibility with UIKit
+- Support for Combine-based state
+- Multiple architectural variants
+- Configuration-heavy abstractions
+
+These are intentional exclusions.
+
+---
+
+## Status
+
+- Specification: Stable
+- Templates: In progress
+- Examples: Planned
+- Tooling: Planned
