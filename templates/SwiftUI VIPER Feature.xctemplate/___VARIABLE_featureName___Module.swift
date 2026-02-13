@@ -7,7 +7,6 @@ struct ___VARIABLE_featureName___Module {
         let router = ___VARIABLE_featureName___Router()
 
         let presenter = ___VARIABLE_featureName___Presenter(
-            interactor: DummyInteractor(),
             router: router
         )
 
@@ -15,8 +14,7 @@ struct ___VARIABLE_featureName___Module {
             presenter: presenter
         )
 
-        // Two-phase wiring to avoid init cycles
-        presenter.setInteractor(interactor)
+        presenter.attach(interactor: interactor)
 
         return ___VARIABLE_featureName___View(
             presenter: presenter

@@ -8,7 +8,7 @@
     <string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 
     <key>Identifier</key>
-    <string>com.yourorg.swiftui-viper-feature</string>
+    <string>com.swiftui-viper.swift6.feature</string>
 
     <key>Name</key>
     <string>SwiftUI VIPER Feature</string>
@@ -22,9 +22,6 @@
         <string>com.apple.platform.macosx</string>
     </array>
 
-    <key>SortOrder</key>
-    <integer>1</integer>
-
     <key>Options</key>
     <array>
         <dict>
@@ -33,7 +30,7 @@
             <key>Name</key>
             <string>Feature Name</string>
             <key>Description</key>
-            <string>Name of the VIPER feature (e.g. Weather)</string>
+            <string>PascalCase feature name (e.g. Weather)</string>
             <key>Type</key>
             <string>text</string>
             <key>Required</key>

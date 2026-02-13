@@ -7,5 +7,5 @@ final class ___VARIABLE_featureName___Router {
 }
 
 enum ___VARIABLE_featureName___Route: Sendable {
-    // case details
+    // Define routes here
 }
